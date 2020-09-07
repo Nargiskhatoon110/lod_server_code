@@ -1,0 +1,46 @@
+{
+    "prefix-list": [
+        {
+            "common": "http://www.city-hub.kr/ontologies/2019/1/common"
+        },
+        {
+            "parking": "http://www.city-hub.kr/ontologies/2019/1/parking"
+        },
+        {
+            "time": "http://www.w3.org/2006/time"
+        },
+        {
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns"
+        },
+        {
+            "owl": "http://www.w3.org/2002/07/owl"
+        }
+    ],
+    "graph-triples": [
+        {
+            "subject": "parking:ParkingLot_yt_lot_1",
+            "predicate": "rdf:type",
+            "object": "owl:NamedIndividual"
+        },
+        {
+            "subject": "parking:ParkingLot_yt_lot_1",
+            "predicate": "rdf:type",
+            "object": "common:ParkingLot"
+        },
+        {
+            "subject": "parking:ParkingLot_yt_lot_1",
+            "predicate": "common:hasDateCreated",
+            "object": "time: Instant_1_yt_lot_1"
+        },
+        {
+            "subject": "parking:ParkingLot_yt_lot_1",
+            "predicate": "parking:hasParkingLotProfile",
+            "object": "parking:ParkingLotProfile_yt_lot_1"
+        } ,
+	    {
+            "subject": "parking:ParkingLotProfile_yt_lot_1",
+            "predicate": "parking:hasParkingLotCategory",
+            "object": "public"
+        }
+    ]
+}

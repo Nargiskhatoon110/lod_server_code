@@ -1,0 +1,16 @@
+{
+    "prefixList": [
+        {
+            "parking": "http://www.city-hub.kr/ontologies/2019/1/parking"
+        },
+        {
+            "air-quality": "http://www.city-hub.kr/ontologies/2019/1/air-quality"
+        }
+    ],
+    "graphList": [
+        "parking",
+        "parking:parkinglot_yt_lot_1",
+        "parking:parkingspot_23_yt_lot_1",
+        "air-quality:air-quality_seongnam_1"
+    ]
+}
