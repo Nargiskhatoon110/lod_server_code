@@ -29,10 +29,16 @@ router.get('/graphs', (req, res) => {
 	return res.json(data);
 })
 
+// keyword: parking
+// http://{{hostname}}/graphs?graphType=instance,ontology&keyword=parking&prefixFormat=simple&limit=100
+
 router.get('/graphList', (req, res) => {
 	//   data = 'testsetse'
 	res.send(graphListData);
 })
+
+// selected LOD: parking:yatap_01
+// http://{{hostname}}/graphs/parking:yatap_01?prefixFormat=normal&limit=10
 
 router.get('/graph', (req, res) => {
 	//   data = 'testsetse'

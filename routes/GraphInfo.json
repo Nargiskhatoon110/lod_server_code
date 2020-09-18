@@ -1,46 +1,624 @@
 {
     "prefix-list": [
-        {
-            "common": "http://www.city-hub.kr/ontologies/2019/1/common"
-        },
-        {
-            "parking": "http://www.city-hub.kr/ontologies/2019/1/parking"
-        },
-        {
-            "time": "http://www.w3.org/2006/time"
-        },
-        {
-            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns"
-        },
-        {
-            "owl": "http://www.w3.org/2002/07/owl"
-        }
+      {
+        "common": "http://www.city-hub.kr/ontologies/2019/1/common#"
+      },
+      {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      },
+      {
+        "owl": "http://www.w3.org/2002/07/owl#"
+      },
+      {
+        "time": "http://www.w3.org/2006/time#"
+      },
+      {
+        "saref": "https://w3id.org/saref#"
+      },
+      {
+        "parking": "http://www.city-hub.kr/ontologies/2019/1/parking#"
+      }
     ],
     "graph-triples": [
-        {
-            "subject": "parking:ParkingLot_yt_lot_1",
-            "predicate": "rdf:type",
-            "object": "owl:NamedIndividual"
-        },
-        {
-            "subject": "parking:ParkingLot_yt_lot_1",
-            "predicate": "rdf:type",
-            "object": "common:ParkingLot"
-        },
-        {
-            "subject": "parking:ParkingLot_yt_lot_1",
-            "predicate": "common:hasDateCreated",
-            "object": "time: Instant_1_yt_lot_1"
-        },
-        {
-            "subject": "parking:ParkingLot_yt_lot_1",
-            "predicate": "parking:hasParkingLotProfile",
-            "object": "parking:ParkingLotProfile_yt_lot_1"
-        } ,
-	    {
-            "subject": "parking:ParkingLotProfile_yt_lot_1",
-            "predicate": "parking:hasParkingLotCategory",
-            "object": "public"
-        }
+      {
+        "predicate": "rdf:type",
+        "subject": "common:ProfilePicture_1_yatap_01",
+        "object": "owl:Namedindividual"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "time:TemporalEntity_1_yatap_01",
+        "object": "owl:Namedindividual"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "saref:Currency_1_yatap_01",
+        "object": "owl:Namedindividual"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "parking:AvailableParkingSpots_1_yatap_01",
+        "object": "owl:Namedindividual"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "parking:PCEService_1_yatap_01",
+        "object": "owl:Namedindividual"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "parking:ParkingCongestionEstimation_1_yatap_01",
+        "object": "owl:Namedindividual"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "parking:ParkingLotProfile_1_yatap_01",
+        "object": "owl:Namedindividual"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "parking:ParkingLot_1_yatap_01",
+        "object": "owl:Namedindividual"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "parking:ParkingServicePrice_1_yatap_01",
+        "object": "owl:Namedindividual"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "parking:ParkingService_1_yatap_01",
+        "object": "owl:Namedindividual"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "common:ContactPoint_1_yatap_01",
+        "object": "owl:Namedindividual"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "common:GeoProperty_1_yatap_01",
+        "object": "owl:Namedindividual"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "common:PriceRate_1_yatap_01",
+        "object": "owl:Namedindividual"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "common:State_1_yatap_01",
+        "object": "owl:Namedindividual"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "common:ZoneBasedLocation_1_yatap_01",
+        "object": "owl:Namedindividual"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "common:ZoneBasedLocation_2_yatap_01",
+        "object": "owl:Namedindividual"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "common:ZoneBasedLocation_3_yatap_01",
+        "object": "owl:Namedindividual"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "common:ZoneBasedLocation_4_yatap_01",
+        "object": "owl:Namedindividual"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "common:ZoneBasedLocation_5_yatap_01",
+        "object": "owl:Namedindividual"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "time:GeneralDateTimeDescription_1_yatap_01",
+        "object": "owl:Namedindividual"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "time:Instant_1_yatap_01",
+        "object": "owl:Namedindividual"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "time:Instant_2_yatap_01",
+        "object": "owl:Namedindividual"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "time:Instant_3_yatap_01",
+        "object": "owl:Namedindividual"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "time:Instant_4_yatap_01",
+        "object": "owl:Namedindividual"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "time:Instant_5_yatap_01",
+        "object": "owl:Namedindividual"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "parking:AvailableParkingSpots_1_yatap_01",
+        "object": "parking:AvailableParkingSpots"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "parking:PCEService_1_yatap_01",
+        "object": "parking:PCEService"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "parking:ParkingCongestionEstimation_1_yatap_01",
+        "object": "parking:ParkingCongestionEstimation"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "parking:ParkingLot_1_yatap_01",
+        "object": "parking:ParkingLot"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "parking:ParkingLotProfile_1_yatap_01",
+        "object": "parking:ParkingLotProfile"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "parking:ParkingService_1_yatap_01",
+        "object": "parking:ParkingService"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "parking:ParkingServicePrice_1_yatap_01",
+        "object": "parking:ParkingServicePrice"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "common:ContactPoint_1_yatap_01",
+        "object": "common:ContactPoint"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "common:GeoProperty_1_yatap_01",
+        "object": "common:GeoProperty"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "common:PriceRate_1_yatap_01",
+        "object": "common:PriceRate"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "common:ProfilePicture_1_yatap_01",
+        "object": "common:ProfilePicture"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "common:State_1_yatap_01",
+        "object": "common:State"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "common:ZoneBasedLocation_1_yatap_01",
+        "object": "common:ZoneBasedLocation"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "common:ZoneBasedLocation_2_yatap_01",
+        "object": "common:ZoneBasedLocation"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "common:ZoneBasedLocation_3_yatap_01",
+        "object": "common:ZoneBasedLocation"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "common:ZoneBasedLocation_4_yatap_01",
+        "object": "common:ZoneBasedLocation"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "common:ZoneBasedLocation_5_yatap_01",
+        "object": "common:ZoneBasedLocation"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "time:GeneralDateTimeDescription_1_yatap_01",
+        "object": "time:GeneralDateTimeDescription"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "time:Instant_1_yatap_01",
+        "object": "time:Instant"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "time:Instant_2_yatap_01",
+        "object": "time:Instant"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "time:Instant_3_yatap_01",
+        "object": "time:Instant"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "time:Instant_4_yatap_01",
+        "object": "time:Instant"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "time:Instant_5_yatap_01",
+        "object": "time:Instant"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "time:TemporalEntity_1_yatap_01",
+        "object": "time:TemporalEntity"
+      },
+      {
+        "predicate": "rdf:type",
+        "subject": "saref:Currency_1_yatap_01",
+        "object": "saref:Currency"
+      },
+      {
+        "predicate": "parking:definesOpeningTime",
+        "subject": "parking:ParkingLotProfile_1_yatap_01",
+        "object": "time:TemporalEntity_1_yatap_01"
+      },
+      {
+        "predicate": "parking:hasAvailableNumberOfSpots",
+        "subject": "parking:AvailableParkingSpots_1_yatap_01",
+        "object": "20^^http://www.w3.org/2001/XMLSchema#unsignedInt"
+      },
+      {
+        "predicate": "parking:hasParkingLotCategory",
+        "subject": "parking:ParkingLotProfile_1_yatap_01",
+        "object": "feeCharged"
+      },
+      {
+        "predicate": "parking:hasParkingLotCategory",
+        "subject": "parking:ParkingLotProfile_1_yatap_01",
+        "object": "public"
+      },
+      {
+        "predicate": "parking:hasParkingLotProfile",
+        "subject": "parking:ParkingLot_1_yatap_01",
+        "object": "parking:ParkingLotProfile_1_yatap_01"
+      },
+      {
+        "predicate": "parking:hasTotalSpots",
+        "subject": "parking:ParkingLotProfile_1_yatap_01",
+        "object": "110^^http://www.w3.org/2001/XMLSchema#positiveInteger"
+      },
+      {
+        "predicate": "parking:supportsParkingCongestionEstimation",
+        "subject": "parking:PCEService_1_yatap_01",
+        "object": "parking:ParkingCongestionEstimation_1_yatap_01"
+      },
+      {
+        "predicate": "common:acceptsCurrency",
+        "subject": "common:PriceRate_1_yatap_01",
+        "object": "saref:Currency_1_yatap_01"
+      },
+      {
+        "predicate": "common:definesContactPoint",
+        "subject": "parking:ParkingLotProfile_1_yatap_01",
+        "object": "common:ContactPoint_1_yatap_01"
+      },
+      {
+        "predicate": "common:definesService",
+        "subject": "parking:ParkingLotProfile_1_yatap_01",
+        "object": "parking:PCEService_1_yatap_01"
+      },
+      {
+        "predicate": "common:definesService",
+        "subject": "parking:ParkingLotProfile_1_yatap_01",
+        "object": "parking:ParkingService_1_yatap_01"
+      },
+      {
+        "predicate": "common:executionTime",
+        "subject": "parking:ParkingCongestionEstimation_1_yatap_01",
+        "object": "time:Instant_5_yatap_01"
+      },
+      {
+        "predicate": "common:hasAddress",
+        "subject": "parking:ParkingLot_1_yatap_01",
+        "object": "common:ZoneBasedLocation_1_yatap_01"
+      },
+      {
+        "predicate": "common:hasAddress",
+        "subject": "parking:ParkingLot_1_yatap_01",
+        "object": "common:ZoneBasedLocation_2_yatap_01"
+      },
+      {
+        "predicate": "common:hasAddress",
+        "subject": "parking:ParkingLot_1_yatap_01",
+        "object": "common:ZoneBasedLocation_3_yatap_01"
+      },
+      {
+        "predicate": "common:hasAddress",
+        "subject": "parking:ParkingLot_1_yatap_01",
+        "object": "common:ZoneBasedLocation_4_yatap_01"
+      },
+      {
+        "predicate": "common:hasAddress",
+        "subject": "parking:ParkingLot_1_yatap_01",
+        "object": "common:ZoneBasedLocation_5_yatap_01"
+      },
+      {
+        "predicate": "common:hasCurrency",
+        "subject": "saref:Currency_1_yatap_01",
+        "object": "KRW"
+      },
+      {
+        "predicate": "common:hasDateCreated",
+        "subject": "parking:ParkingLot_1_yatap_01",
+        "object": "time:Instant_1_yatap_01"
+      },
+      {
+        "predicate": "common:hasDateModified",
+        "subject": "parking:ParkingLot_1_yatap_01",
+        "object": "time:Instant_2_yatap_01"
+      },
+      {
+        "predicate": "common:hasEmail",
+        "subject": "common:ContactPoint_1_yatap_01",
+        "object": "parking@seongnam.kr"
+      },
+      {
+        "predicate": "common:hasEstimatedValue",
+        "subject": "parking:ParkingCongestionEstimation_1_yatap_01",
+        "object": "[2.0, 5.0]"
+      },
+      {
+        "predicate": "common:hasID",
+        "subject": "parking:ParkingLot_1_yatap_01",
+        "object": "urn:datahub:OffStreetParking:yatap_01"
+      },
+      {
+        "predicate": "common:hasImage",
+        "subject": "common:ProfilePicture_1_yatap_01",
+        "object": "https://raw.githubusercontent.com/IoTKETI/image/master/City_hub_yt_lot_1.jpg"
+      },
+      {
+        "predicate": "common:hasLatitute",
+        "subject": "common:GeoProperty_1_yatap_01",
+        "object": "127.1293735^^http://www.w3.org/2001/XMLSchema#double"
+      },
+      {
+        "predicate": "common:hasLocationTag",
+        "subject": "parking:ParkingLot_1_yatap_01",
+        "object": "commercial"
+      },
+      {
+        "predicate": "common:hasLongitude",
+        "subject": "common:GeoProperty_1_yatap_01",
+        "object": "37.4114424^^http://www.w3.org/2001/XMLSchema#double"
+      },
+      {
+        "predicate": "common:hasName",
+        "subject": "common:ZoneBasedLocation_1_yatap_01",
+        "object": "addressCountry"
+      },
+      {
+        "predicate": "common:hasName",
+        "subject": "common:ZoneBasedLocation_3_yatap_01",
+        "object": "addressLocality"
+      },
+      {
+        "predicate": "common:hasName",
+        "subject": "common:ZoneBasedLocation_2_yatap_01",
+        "object": "addressRegion"
+      },
+      {
+        "predicate": "common:hasName",
+        "subject": "common:ZoneBasedLocation_5_yatap_01",
+        "object": "addressTown"
+      },
+      {
+        "predicate": "common:hasName",
+        "subject": "common:ZoneBasedLocation_4_yatap_01",
+        "object": "streetAddress"
+      },
+      {
+        "predicate": "common:hasName",
+        "subject": "parking:ParkingLot_1_yatap_01",
+        "object": "yatap_01"
+      },
+      {
+        "predicate": "common:hasPaymentType",
+        "subject": "parking:ParkingServicePrice_1_yatap_01",
+        "object": "Cash"
+      },
+      {
+        "predicate": "common:hasPaymentType",
+        "subject": "parking:ParkingServicePrice_1_yatap_01",
+        "object": "Credit Card"
+      },
+      {
+        "predicate": "common:hasPostalAddress",
+        "subject": "common:ZoneBasedLocation_4_yatap_01",
+        "object": "8th Seungin-ro"
+      },
+      {
+        "predicate": "common:hasPostalAddress",
+        "subject": "common:ZoneBasedLocation_2_yatap_01",
+        "object": "Gyeonggi-do"
+      },
+      {
+        "predicate": "common:hasPostalAddress",
+        "subject": "common:ZoneBasedLocation_1_yatap_01",
+        "object": "KR"
+      },
+      {
+        "predicate": "common:hasPostalAddress",
+        "subject": "common:ZoneBasedLocation_3_yatap_01",
+        "object": "Seongnam-si"
+      },
+      {
+        "predicate": "common:hasPostalAddress",
+        "subject": "common:ZoneBasedLocation_5_yatap_01",
+        "object": "Yatap-dong"
+      },
+      {
+        "predicate": "common:hasPriceProperty",
+        "subject": "parking:ParkingService_1_yatap_01",
+        "object": "parking:ParkingServicePrice_1_yatap_01"
+      },
+      {
+        "predicate": "common:hasPriceRate",
+        "subject": "parking:ParkingServicePrice_1_yatap_01",
+        "object": "common:PriceRate_1_yatap_01"
+      },
+      {
+        "predicate": "common:hasPriceRateValue",
+        "subject": "common:PriceRate_1_yatap_01",
+        "object": "최초 30분 무료 free, 이후 10분당 500원"
+      },
+      {
+        "predicate": "common:hasProperty",
+        "subject": "parking:ParkingLot_1_yatap_01",
+        "object": "parking:AvailableParkingSpots_1_yatap_01"
+      },
+      {
+        "predicate": "common:hasState",
+        "subject": "parking:ParkingLot_1_yatap_01",
+        "object": "common:State_1_yatap_01"
+      },
+      {
+        "predicate": "common:hasStateValue",
+        "subject": "common:State_1_yatap_01",
+        "object": "open"
+      },
+      {
+        "predicate": "common:hasStateValue",
+        "subject": "common:State_1_yatap_01",
+        "object": "spaceAvailable"
+      },
+      {
+        "predicate": "common:hasTelephoneNumber",
+        "subject": "common:ContactPoint_1_yatap_01",
+        "object": "031-000-0000"
+      },
+      {
+        "predicate": "common:hasType",
+        "subject": "common:ContactPoint_1_yatap_01",
+        "object": "City-hall"
+      },
+      {
+        "predicate": "common:hasType",
+        "subject": "time:Instant_3_yatap_01",
+        "object": "OpeningHours"
+      },
+      {
+        "predicate": "common:hasType",
+        "subject": "time:Instant_4_yatap_01",
+        "object": "OpeningHours"
+      },
+      {
+        "predicate": "common:hasType",
+        "subject": "common:GeoProperty_1_yatap_01",
+        "object": "Point"
+      },
+      {
+        "predicate": "common:includesProfilePicture",
+        "subject": "parking:ParkingLotProfile_1_yatap_01",
+        "object": "common:ProfilePicture_1_yatap_01"
+      },
+      {
+        "predicate": "common:isLocatedAt",
+        "subject": "parking:ParkingLot_1_yatap_01",
+        "object": "common:GeoProperty_1_yatap_01"
+      },
+      {
+        "predicate": "time:dayOfWeek",
+        "subject": "time:GeneralDateTimeDescription_1_yatap_01",
+        "object": "time:Friday"
+      },
+      {
+        "predicate": "time:dayOfWeek",
+        "subject": "time:GeneralDateTimeDescription_1_yatap_01",
+        "object": "time:Monday"
+      },
+      {
+        "predicate": "time:dayOfWeek",
+        "subject": "time:GeneralDateTimeDescription_1_yatap_01",
+        "object": "time:Saturday"
+      },
+      {
+        "predicate": "time:dayOfWeek",
+        "subject": "time:GeneralDateTimeDescription_1_yatap_01",
+        "object": "time:Sunday"
+      },
+      {
+        "predicate": "time:dayOfWeek",
+        "subject": "time:GeneralDateTimeDescription_1_yatap_01",
+        "object": "time:Thursday"
+      },
+      {
+        "predicate": "time:dayOfWeek",
+        "subject": "time:GeneralDateTimeDescription_1_yatap_01",
+        "object": "time:Tuesday"
+      },
+      {
+        "predicate": "time:dayOfWeek",
+        "subject": "time:GeneralDateTimeDescription_1_yatap_01",
+        "object": "time:Wednesday"
+      },
+      {
+        "predicate": "time:hasBeginning",
+        "subject": "time:TemporalEntity_1_yatap_01",
+        "object": "time:Instant_3_yatap_01"
+      },
+      {
+        "predicate": "time:hasEnd",
+        "subject": "time:TemporalEntity_1_yatap_01",
+        "object": "time:Instant_4_yatap_01"
+      },
+      {
+        "predicate": "time:inDateTime",
+        "subject": "time:Instant_3_yatap_01",
+        "object": "time:GeneralDateTimeDescription_1_yatap_01"
+      },
+      {
+        "predicate": "time:inDateTime",
+        "subject": "time:Instant_4_yatap_01",
+        "object": "time:GeneralDateTimeDescription_1_yatap_01"
+      },
+      {
+        "predicate": "time:inXSDDateTime",
+        "subject": "time:Instant_3_yatap_01",
+        "object": "1111-11-11T00:00:00Z^^http://www.w3.org/2001/XMLSchema#dateTime"
+      },
+      {
+        "predicate": "time:inXSDDateTime",
+        "subject": "time:Instant_4_yatap_01",
+        "object": "1111-11-11T23:59:59Z^^http://www.w3.org/2001/XMLSchema#dateTime"
+      },
+      {
+        "predicate": "time:inXSDDateTime",
+        "subject": "time:Instant_5_yatap_01",
+        "object": "2019-06-14T02:00:00Z^^http://www.w3.org/2001/XMLSchema#dateTime"
+      },
+      {
+        "predicate": "time:inXSDDateTime",
+        "subject": "time:Instant_1_yatap_01",
+        "object": "2020-09-12T11:32:15Z^^http://www.w3.org/2001/XMLSchema#dateTime"
+      },
+      {
+        "predicate": "time:inXSDDateTime",
+        "subject": "time:Instant_2_yatap_01",
+        "object": "2020-09-17T03:49:34Z^^http://www.w3.org/2001/XMLSchema#dateTime"
+      }
     ]
-}
+  }
