@@ -5,7 +5,7 @@
         }
     ],
     "graphList": [
-        "parking",
+        "http://www.city-hub.kr/ontologies/2019/1/parking",
         "parking:yatap_01",
         "parking:yatap_02",
         "parking:yatap_01_yatap_540"
