@@ -1,0 +1,51 @@
+{
+  "prefix-list": [
+    {
+      "weather": "http://www.city-hub.kr/ontologies/2019/1/weather#"
+    },
+    {
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    },
+    {
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    {
+      "common": "http://www.city-hub.kr/ontologies/2019/1/common#"
+    },
+    {
+      "time": "http://www.w3.org/2006/time#"
+    }
+  ],
+  "entity-description": [
+    {
+      "predicate": "rdf:type",
+      "subject": "weather:WeatherObservation_1_WeatherObserved_6831",
+      "object": "owl:Namedindividual"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "weather:WeatherObservation_1_WeatherObserved_6831",
+      "object": "weather:WeatherObservation"
+    },
+    {
+      "predicate": "common:hasObservedValue",
+      "subject": "weather:WeatherObservation_1_WeatherObserved_6831",
+      "object": "{rainfall\u003d0.2, visibility\u003d3000.0, snowfall\u003d0.2, temperature\u003d10.2, humidity\u003d68.0, rainType\u003d비, windSpeed\u003d0.3, hourlyRainfall\u003d2.5}"
+    },
+    {
+      "predicate": "common:hasDateCreated",
+      "subject": "weather:WeatherObservation_1_WeatherObserved_6831",
+      "object": "time:Instant_1_WeatherObserved_6831"
+    },
+    {
+      "predicate": "common:hasDateModified",
+      "subject": "weather:WeatherObservation_1_WeatherObserved_6831",
+      "object": "time:Instant_2_WeatherObserved_6831"
+    },
+    {
+      "predicate": "common:hasID",
+      "subject": "weather:WeatherObservation_1_WeatherObserved_6831",
+      "object": "urn:datahub:WeatherObserved:6831"
+    }
+  ]
+}

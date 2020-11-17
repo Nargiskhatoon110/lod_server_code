@@ -1,0 +1,326 @@
+{
+  "prefix-list": [
+    {
+      "parking": "http://www.city-hub.kr/ontologies/2019/1/parking#"
+    },
+    {
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    },
+    {
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    {
+      "common": "http://www.city-hub.kr/ontologies/2019/1/common#"
+    },
+    {
+      "time": "http://www.w3.org/2006/time#"
+    }
+  ],
+  "graph-triples": [
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:ParkingSpotProfile_1_yatap_01_yatap_540",
+      "object": "owl:Namedindividual"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:ParkingSpotStatus_1_yatap_01_yatap_540",
+      "object": "owl:Namedindividual"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:ParkingSpot_1_yatap_01_yatap_540",
+      "object": "owl:Namedindividual"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "common:GeoProperty_1_yatap_01_yatap_540",
+      "object": "owl:Namedindividual"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "common:LengthProperty_1_yatap_01_yatap_540",
+      "object": "owl:Namedindividual"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "common:WidthProperty_1_yatap_01_yatap_540",
+      "object": "owl:Namedindividual"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "common:ZoneBasedLocation_1_yatap_01_yatap_540",
+      "object": "owl:Namedindividual"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "common:ZoneBasedLocation_2_yatap_01_yatap_540",
+      "object": "owl:Namedindividual"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "common:ZoneBasedLocation_3_yatap_01_yatap_540",
+      "object": "owl:Namedindividual"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "common:ZoneBasedLocation_4_yatap_01_yatap_540",
+      "object": "owl:Namedindividual"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "common:ZoneBasedLocation_5_yatap_01_yatap_540",
+      "object": "owl:Namedindividual"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "time:Instant_1_yatap_01_yatap_540",
+      "object": "owl:Namedindividual"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "time:Instant_2_yatap_01_yatap_540",
+      "object": "owl:Namedindividual"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "common:GeoProperty_1_yatap_01_yatap_540",
+      "object": "common:GeoProperty"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "common:ZoneBasedLocation_1_yatap_01_yatap_540",
+      "object": "common:ZoneBasedLocation"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "common:ZoneBasedLocation_2_yatap_01_yatap_540",
+      "object": "common:ZoneBasedLocation"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "common:ZoneBasedLocation_3_yatap_01_yatap_540",
+      "object": "common:ZoneBasedLocation"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "common:ZoneBasedLocation_4_yatap_01_yatap_540",
+      "object": "common:ZoneBasedLocation"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "common:ZoneBasedLocation_5_yatap_01_yatap_540",
+      "object": "common:ZoneBasedLocation"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "time:Instant_1_yatap_01_yatap_540",
+      "object": "time:Instant"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "time:Instant_2_yatap_01_yatap_540",
+      "object": "time:Instant"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:ParkingSpot_1_yatap_01_yatap_540",
+      "object": "parking:ParkingSpot"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:ParkingSpotProfile_1_yatap_01_yatap_540",
+      "object": "parking:ParkingSpotProfile"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:ParkingSpotStatus_1_yatap_01_yatap_540",
+      "object": "parking:ParkingSpotStatus"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "common:LengthProperty_1_yatap_01_yatap_540",
+      "object": "common:LengthProperty"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "common:WidthProperty_1_yatap_01_yatap_540",
+      "object": "common:WidthProperty"
+    },
+    {
+      "predicate": "common:subSystemOf",
+      "subject": "parking:ParkingSpot_1_yatap_01_yatap_540",
+      "object": "parking:ParkingLot_1_yatap_01"
+    },
+    {
+      "predicate": "common:hasAddress",
+      "subject": "parking:ParkingSpot_1_yatap_01_yatap_540",
+      "object": "common:ZoneBasedLocation_1_yatap_01_yatap_540"
+    },
+    {
+      "predicate": "common:hasAddress",
+      "subject": "parking:ParkingSpot_1_yatap_01_yatap_540",
+      "object": "common:ZoneBasedLocation_2_yatap_01_yatap_540"
+    },
+    {
+      "predicate": "common:hasAddress",
+      "subject": "parking:ParkingSpot_1_yatap_01_yatap_540",
+      "object": "common:ZoneBasedLocation_3_yatap_01_yatap_540"
+    },
+    {
+      "predicate": "common:hasAddress",
+      "subject": "parking:ParkingSpot_1_yatap_01_yatap_540",
+      "object": "common:ZoneBasedLocation_4_yatap_01_yatap_540"
+    },
+    {
+      "predicate": "common:hasAddress",
+      "subject": "parking:ParkingSpot_1_yatap_01_yatap_540",
+      "object": "common:ZoneBasedLocation_5_yatap_01_yatap_540"
+    },
+    {
+      "predicate": "common:hasDateCreated",
+      "subject": "parking:ParkingSpot_1_yatap_01_yatap_540",
+      "object": "time:Instant_1_yatap_01_yatap_540"
+    },
+    {
+      "predicate": "common:hasDateModified",
+      "subject": "parking:ParkingSpot_1_yatap_01_yatap_540",
+      "object": "time:Instant_2_yatap_01_yatap_540"
+    },
+    {
+      "predicate": "common:hasID",
+      "subject": "parking:ParkingSpot_1_yatap_01_yatap_540",
+      "object": "urn:datahub:ParkingSpot:yatap_540"
+    },
+    {
+      "predicate": "common:hasLatitute",
+      "subject": "common:GeoProperty_1_yatap_01_yatap_540",
+      "object": "37.4114423^^http://www.w3.org/2001/XMLSchema#double"
+    },
+    {
+      "predicate": "common:hasLongitude",
+      "subject": "common:GeoProperty_1_yatap_01_yatap_540",
+      "object": "127.1293735^^http://www.w3.org/2001/XMLSchema#double"
+    },
+    {
+      "predicate": "common:hasName",
+      "subject": "common:ZoneBasedLocation_1_yatap_01_yatap_540",
+      "object": "addressCountry"
+    },
+    {
+      "predicate": "common:hasName",
+      "subject": "common:ZoneBasedLocation_3_yatap_01_yatap_540",
+      "object": "addressLocality"
+    },
+    {
+      "predicate": "common:hasName",
+      "subject": "common:ZoneBasedLocation_2_yatap_01_yatap_540",
+      "object": "addressRegion"
+    },
+    {
+      "predicate": "common:hasName",
+      "subject": "common:ZoneBasedLocation_5_yatap_01_yatap_540",
+      "object": "addressTown"
+    },
+    {
+      "predicate": "common:hasName",
+      "subject": "common:ZoneBasedLocation_4_yatap_01_yatap_540",
+      "object": "streetAddress"
+    },
+    {
+      "predicate": "common:hasName",
+      "subject": "parking:ParkingSpot_1_yatap_01_yatap_540",
+      "object": "spot_001"
+    },
+    {
+      "predicate": "common:hasPostalAddress",
+      "subject": "common:ZoneBasedLocation_4_yatap_01_yatap_540",
+      "object": "8th Seungin-ro"
+    },
+    {
+      "predicate": "common:hasPostalAddress",
+      "subject": "common:ZoneBasedLocation_2_yatap_01_yatap_540",
+      "object": "Gyeonggi-do"
+    },
+    {
+      "predicate": "common:hasPostalAddress",
+      "subject": "common:ZoneBasedLocation_1_yatap_01_yatap_540",
+      "object": "KR"
+    },
+    {
+      "predicate": "common:hasPostalAddress",
+      "subject": "common:ZoneBasedLocation_3_yatap_01_yatap_540",
+      "object": "Seongnam-si"
+    },
+    {
+      "predicate": "common:hasPostalAddress",
+      "subject": "common:ZoneBasedLocation_5_yatap_01_yatap_540",
+      "object": "Yatap-dong"
+    },
+    {
+      "predicate": "common:hasType",
+      "subject": "common:GeoProperty_1_yatap_01_yatap_540",
+      "object": "Point"
+    },
+    {
+      "predicate": "common:isLocatedAt",
+      "subject": "parking:ParkingSpot_1_yatap_01_yatap_540",
+      "object": "common:GeoProperty_1_yatap_01_yatap_540"
+    },
+    {
+      "predicate": "time:inXSDDateTime",
+      "subject": "time:Instant_1_yatap_01_yatap_540",
+      "object": "2020-10-28T03:03:26Z^^http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    {
+      "predicate": "time:inXSDDateTime",
+      "subject": "time:Instant_2_yatap_01_yatap_540",
+      "object": "2020-10-28T07:10:42Z^^http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    {
+      "predicate": "parking:definesParkingSpotLength",
+      "subject": "parking:ParkingSpotProfile_1_yatap_01_yatap_540",
+      "object": "common:LengthProperty_1_yatap_01_yatap_540"
+    },
+    {
+      "predicate": "parking:definesParkingSpotWidth",
+      "subject": "parking:ParkingSpotProfile_1_yatap_01_yatap_540",
+      "object": "common:WidthProperty_1_yatap_01_yatap_540"
+    },
+    {
+      "predicate": "parking:hasParkingLotReference",
+      "subject": "parking:ParkingSpotProfile_1_yatap_01_yatap_540",
+      "object": "urn:datahub:OffStreetParking:yatap_01^^http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    {
+      "predicate": "parking:hasParkingSpotProfile",
+      "subject": "parking:ParkingSpot_1_yatap_01_yatap_540",
+      "object": "parking:ParkingSpotProfile_1_yatap_01_yatap_540"
+    },
+    {
+      "predicate": "parking:hasParkingSpotStatus",
+      "subject": "parking:ParkingSpot_1_yatap_01_yatap_540",
+      "object": "parking:ParkingSpotStatus_1_yatap_01_yatap_540"
+    },
+    {
+      "predicate": "parking:hasParkingStatusValue",
+      "subject": "parking:ParkingSpotStatus_1_yatap_01_yatap_540",
+      "object": "free"
+    },
+    {
+      "predicate": "parking:hasUserTypeLimit",
+      "subject": "parking:ParkingSpotProfile_1_yatap_01_yatap_540",
+      "object": "forDisabled"
+    },
+    {
+      "predicate": "common:hasLengthValue",
+      "subject": "common:LengthProperty_1_yatap_01_yatap_540",
+      "object": "5.1^^http://www.w3.org/2001/XMLSchema#double"
+    },
+    {
+      "predicate": "common:hasWidthValue",
+      "subject": "common:WidthProperty_1_yatap_01_yatap_540",
+      "object": "2.5^^http://www.w3.org/2001/XMLSchema#double"
+    }
+  ]
+}

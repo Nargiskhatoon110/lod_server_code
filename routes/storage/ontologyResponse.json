@@ -1,0 +1,517 @@
+{
+  "prefix-list": [
+    {
+      "parking": "http://www.city-hub.kr/ontologies/2019/1/parking#"
+    },
+    {
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    },
+    {
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    {
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    {
+      "common": "http://www.city-hub.kr/ontologies/2019/1/common#"
+    },
+    {
+      "time": "http://www.w3.org/2006/time#"
+    },
+    {
+      "xsd": "http://www.w3.org/2001/XMLSchema#"
+    }
+  ],
+  "graph-triples": [
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:AvailableParkingSpots",
+      "object": "owl:Class"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:PCEService",
+      "object": "owl:Class"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:ParkingCongestionEstimation",
+      "object": "owl:Class"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:ParkingLot",
+      "object": "owl:Class"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:ParkingLotProfile",
+      "object": "owl:Class"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:ParkingService",
+      "object": "owl:Class"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:ParkingServicePrice",
+      "object": "owl:Class"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:ParkingSpot",
+      "object": "owl:Class"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:ParkingSpotProfile",
+      "object": "owl:Class"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:ParkingSpotStatus",
+      "object": "owl:Class"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:EstimatingParkingCongestion",
+      "object": "owl:Class"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:PAEService",
+      "object": "owl:Class"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:PSAEvaluation",
+      "object": "owl:Class"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:PSSEvaluation",
+      "object": "owl:Class"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:ParkingCongestion",
+      "object": "owl:Class"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:ParkingCongestionForecast",
+      "object": "owl:Class"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:ParkingServiceProvider",
+      "object": "owl:Class"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "http://www.city-hub.kr/ontologies/2019/1/parking",
+      "object": "owl:Ontology"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:definesOpeningTime",
+      "object": "owl:ObjectProperty"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:hasParkingLotProfile",
+      "object": "owl:ObjectProperty"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:supportsParkingCongestionEstimation",
+      "object": "owl:ObjectProperty"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:definesParkingSpotLength",
+      "object": "owl:ObjectProperty"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:definesParkingSpotWidth",
+      "object": "owl:ObjectProperty"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:hasParkingSpotProfile",
+      "object": "owl:ObjectProperty"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:hasParkingSpotStatus",
+      "object": "owl:ObjectProperty"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:evaluatesAvailableSpots",
+      "object": "owl:ObjectProperty"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:hasAvailabilityEvaluation",
+      "object": "owl:ObjectProperty"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:supportsParkingCongestionForecast",
+      "object": "owl:ObjectProperty"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:hasAvailableNumberOfSpots",
+      "object": "owl:DatatypeProperty"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:hasParkingLotCategory",
+      "object": "owl:DatatypeProperty"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:hasTotalSpots",
+      "object": "owl:DatatypeProperty"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:hasParkingLotReference",
+      "object": "owl:DatatypeProperty"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:hasParkingStatusValue",
+      "object": "owl:DatatypeProperty"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:hasUserTypeLimit",
+      "object": "owl:DatatypeProperty"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:estimatedCongestionValue",
+      "object": "owl:DatatypeProperty"
+    },
+    {
+      "predicate": "rdf:type",
+      "subject": "parking:hasParkingLotURI",
+      "object": "owl:DatatypeProperty"
+    },
+    {
+      "predicate": "rdfs:subPropertyOf",
+      "subject": "parking:evaluatesAvailableSpots",
+      "object": "common:evaluatesProperty"
+    },
+    {
+      "predicate": "rdfs:subPropertyOf",
+      "subject": "parking:hasAvailabilityEvaluation",
+      "object": "common:hasEvaluation"
+    },
+    {
+      "predicate": "rdfs:subPropertyOf",
+      "subject": "parking:supportsParkingCongestionEstimation",
+      "object": "common:supportsProcedureExecution"
+    },
+    {
+      "predicate": "rdfs:subPropertyOf",
+      "subject": "parking:hasParkingLotProfile",
+      "object": "common:hasProperty"
+    },
+    {
+      "predicate": "rdfs:subPropertyOf",
+      "subject": "parking:hasParkingSpotProfile",
+      "object": "common:hasProperty"
+    },
+    {
+      "predicate": "rdfs:subPropertyOf",
+      "subject": "parking:hasParkingSpotStatus",
+      "object": "common:hasState"
+    },
+    {
+      "predicate": "rdfs:subPropertyOf",
+      "subject": "parking:definesOpeningTime",
+      "object": "time:hasTime"
+    },
+    {
+      "predicate": "rdfs:label",
+      "subject": "parking:PAEService",
+      "object": "Parking Availability Evaluation Service@en"
+    },
+    {
+      "predicate": "rdfs:label",
+      "subject": "parking:PCEService",
+      "object": "Parking Congestion Estimation Service@en"
+    },
+    {
+      "predicate": "rdfs:label",
+      "subject": "parking:PSSEvaluation",
+      "object": "Parking Spot Status Evaluation@en"
+    },
+    {
+      "predicate": "rdfs:label",
+      "subject": "parking:PSAEvaluation",
+      "object": "Parking Spots Availability Evaluation@en"
+    },
+    {
+      "predicate": "rdfs:domain",
+      "subject": "parking:hasAvailableNumberOfSpots",
+      "object": "parking:AvailableParkingSpots"
+    },
+    {
+      "predicate": "rdfs:domain",
+      "subject": "parking:hasAvailabilityEvaluation",
+      "object": "parking:AvailableParkingSpots"
+    },
+    {
+      "predicate": "rdfs:domain",
+      "subject": "parking:supportsParkingCongestionEstimation",
+      "object": "parking:PCEService"
+    },
+    {
+      "predicate": "rdfs:domain",
+      "subject": "parking:estimatedCongestionValue",
+      "object": "parking:ParkingCongestionEstimation"
+    },
+    {
+      "predicate": "rdfs:domain",
+      "subject": "parking:hasParkingLotProfile",
+      "object": "parking:ParkingLot"
+    },
+    {
+      "predicate": "rdfs:domain",
+      "subject": "parking:definesOpeningTime",
+      "object": "parking:ParkingLotProfile"
+    },
+    {
+      "predicate": "rdfs:domain",
+      "subject": "parking:hasParkingLotCategory",
+      "object": "parking:ParkingLotProfile"
+    },
+    {
+      "predicate": "rdfs:domain",
+      "subject": "parking:hasTotalSpots",
+      "object": "parking:ParkingLotProfile"
+    },
+    {
+      "predicate": "rdfs:domain",
+      "subject": "parking:hasParkingLotURI",
+      "object": "parking:ParkingLotProfile"
+    },
+    {
+      "predicate": "rdfs:domain",
+      "subject": "parking:hasParkingSpotProfile",
+      "object": "parking:ParkingSpot"
+    },
+    {
+      "predicate": "rdfs:domain",
+      "subject": "parking:hasParkingSpotStatus",
+      "object": "parking:ParkingSpot"
+    },
+    {
+      "predicate": "rdfs:domain",
+      "subject": "parking:definesParkingSpotLength",
+      "object": "parking:ParkingSpotProfile"
+    },
+    {
+      "predicate": "rdfs:domain",
+      "subject": "parking:definesParkingSpotWidth",
+      "object": "parking:ParkingSpotProfile"
+    },
+    {
+      "predicate": "rdfs:domain",
+      "subject": "parking:hasParkingLotReference",
+      "object": "parking:ParkingSpotProfile"
+    },
+    {
+      "predicate": "rdfs:domain",
+      "subject": "parking:hasUserTypeLimit",
+      "object": "parking:ParkingSpotProfile"
+    },
+    {
+      "predicate": "rdfs:domain",
+      "subject": "parking:hasParkingStatusValue",
+      "object": "parking:ParkingSpotStatus"
+    },
+    {
+      "predicate": "rdfs:domain",
+      "subject": "parking:evaluatesAvailableSpots",
+      "object": "parking:PAEService"
+    },
+    {
+      "predicate": "rdfs:range",
+      "subject": "parking:hasParkingLotReference",
+      "object": "xsd:anyURI"
+    },
+    {
+      "predicate": "rdfs:range",
+      "subject": "parking:hasParkingLotURI",
+      "object": "xsd:anyURI"
+    },
+    {
+      "predicate": "rdfs:range",
+      "subject": "parking:estimatedCongestionValue",
+      "object": "xsd:int"
+    },
+    {
+      "predicate": "rdfs:range",
+      "subject": "parking:hasTotalSpots",
+      "object": "xsd:positiveInteger"
+    },
+    {
+      "predicate": "rdfs:range",
+      "subject": "parking:hasParkingLotCategory",
+      "object": "xsd:string"
+    },
+    {
+      "predicate": "rdfs:range",
+      "subject": "parking:hasParkingStatusValue",
+      "object": "xsd:string"
+    },
+    {
+      "predicate": "rdfs:range",
+      "subject": "parking:hasUserTypeLimit",
+      "object": "xsd:string"
+    },
+    {
+      "predicate": "rdfs:range",
+      "subject": "parking:hasAvailableNumberOfSpots",
+      "object": "xsd:unsignedInt"
+    },
+    {
+      "predicate": "rdfs:range",
+      "subject": "parking:evaluatesAvailableSpots",
+      "object": "parking:AvailableParkingSpots"
+    },
+    {
+      "predicate": "rdfs:range",
+      "subject": "parking:supportsParkingCongestionEstimation",
+      "object": "parking:ParkingCongestionEstimation"
+    },
+    {
+      "predicate": "rdfs:range",
+      "subject": "parking:hasParkingLotProfile",
+      "object": "parking:ParkingLotProfile"
+    },
+    {
+      "predicate": "rdfs:range",
+      "subject": "parking:definesOpeningTime",
+      "object": "time:TemporalEntity"
+    },
+    {
+      "predicate": "rdfs:range",
+      "subject": "parking:hasParkingSpotProfile",
+      "object": "parking:ParkingSpotProfile"
+    },
+    {
+      "predicate": "rdfs:range",
+      "subject": "parking:hasParkingSpotStatus",
+      "object": "parking:ParkingSpotStatus"
+    },
+    {
+      "predicate": "rdfs:range",
+      "subject": "parking:definesParkingSpotLength",
+      "object": "common:LengthProperty"
+    },
+    {
+      "predicate": "rdfs:range",
+      "subject": "parking:definesParkingSpotWidth",
+      "object": "common:WidthProperty"
+    },
+    {
+      "predicate": "rdfs:range",
+      "subject": "parking:hasAvailabilityEvaluation",
+      "object": "parking:PSAEvaluation"
+    },
+    {
+      "predicate": "rdfs:range",
+      "subject": "parking:supportsParkingCongestionForecast",
+      "object": "parking:ParkingCongestionForecast"
+    },
+    {
+      "predicate": "rdfs:subClassOf",
+      "subject": "parking:EstimatingParkingCongestion",
+      "object": "common:Estimating"
+    },
+    {
+      "predicate": "rdfs:subClassOf",
+      "subject": "parking:ParkingCongestionEstimation",
+      "object": "common:Estimation"
+    },
+    {
+      "predicate": "rdfs:subClassOf",
+      "subject": "parking:PSAEvaluation",
+      "object": "common:Evaluation"
+    },
+    {
+      "predicate": "rdfs:subClassOf",
+      "subject": "parking:ParkingCongestion",
+      "object": "common:Phenomenon"
+    },
+    {
+      "predicate": "rdfs:subClassOf",
+      "subject": "parking:ParkingServicePrice",
+      "object": "common:PriceProperty"
+    },
+    {
+      "predicate": "rdfs:subClassOf",
+      "subject": "parking:ParkingLotProfile",
+      "object": "common:Profile"
+    },
+    {
+      "predicate": "rdfs:subClassOf",
+      "subject": "parking:ParkingSpotProfile",
+      "object": "common:Profile"
+    },
+    {
+      "predicate": "rdfs:subClassOf",
+      "subject": "parking:AvailableParkingSpots",
+      "object": "common:Property"
+    },
+    {
+      "predicate": "rdfs:subClassOf",
+      "subject": "parking:ParkingService",
+      "object": "common:PublicService"
+    },
+    {
+      "predicate": "rdfs:subClassOf",
+      "subject": "parking:PCEService",
+      "object": "common:Service"
+    },
+    {
+      "predicate": "rdfs:subClassOf",
+      "subject": "parking:PAEService",
+      "object": "common:Service"
+    },
+    {
+      "predicate": "rdfs:subClassOf",
+      "subject": "parking:ParkingServiceProvider",
+      "object": "common:ServiceProvider"
+    },
+    {
+      "predicate": "rdfs:subClassOf",
+      "subject": "parking:PSSEvaluation",
+      "object": "common:StateEvaluation"
+    },
+    {
+      "predicate": "rdfs:subClassOf",
+      "subject": "parking:ParkingLot",
+      "object": "common:Zone"
+    },
+    {
+      "predicate": "rdfs:subClassOf",
+      "subject": "parking:ParkingSpot",
+      "object": "common:Zone"
+    },
+    {
+      "predicate": "rdfs:subClassOf",
+      "subject": "parking:ParkingSpotStatus",
+      "object": "common:State"
+    }
+  ]
+}

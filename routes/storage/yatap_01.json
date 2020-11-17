@@ -17,6 +17,15 @@
       },
       {
         "parking": "http://www.city-hub.kr/ontologies/2019/1/parking#"
+      },
+      {
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+      },
+      {
+        "weather": "http://www.city-hub.kr/ontologies/2019/1/weather#"
+      },
+      {
+        "air-quality": "http://www.city-hub.kr/ontologies/2019/1/air-quality#"
       }
     ],
     "graph-triples": [
@@ -271,6 +280,31 @@
         "object": "saref:Currency"
       },
       {
+        "predicate": "rdfs:seeAlso",
+        "subject": "parking:ParkingLot_1_yatap_01",
+        "object": "weather:WeatherEstimation_1_WeatherForecast_6279"
+      },
+      {
+        "predicate": "rdfs:seeAlso",
+        "subject": "parking:ParkingLot_1_yatap_01",
+        "object": "air-quality:AirQualityObservation_1_AirQualityObserved_6378"
+      },
+      {
+        "predicate": "rdfs:seeAlso",
+        "subject": "parking:ParkingLot_1_yatap_01",
+        "object": "air-quality:AirQualityEstimation_1_AirQualityForecast_6831"
+      },
+      {
+        "predicate": "rdfs:seeAlso",
+        "subject": "parking:ParkingLot_1_yatap_01",
+        "object": "weather:WeatherObservation_1_WeatherObserved_6831"
+      },
+      {
+        "predicate": "common:hasSubSystem",
+        "subject": "parking:ParkingLot_1_yatap_01",
+        "object": "parking:ParkingSpot_1_yatap_01_yatap_540"
+      },
+      {
         "predicate": "parking:definesOpeningTime",
         "subject": "parking:ParkingLotProfile_1_yatap_01",
         "object": "time:TemporalEntity_1_yatap_01"
@@ -278,7 +312,7 @@
       {
         "predicate": "parking:hasAvailableNumberOfSpots",
         "subject": "parking:AvailableParkingSpots_1_yatap_01",
-        "object": "20^^http://www.w3.org/2001/XMLSchema#unsignedInt"
+        "object": "40^^http://www.w3.org/2001/XMLSchema#unsignedInt"
       },
       {
         "predicate": "parking:hasParkingLotCategory",
@@ -393,7 +427,7 @@
       {
         "predicate": "common:hasLatitute",
         "subject": "common:GeoProperty_1_yatap_01",
-        "object": "127.1293735^^http://www.w3.org/2001/XMLSchema#double"
+        "object": "37.4114424^^http://www.w3.org/2001/XMLSchema#double"
       },
       {
         "predicate": "common:hasLocationTag",
@@ -403,7 +437,7 @@
       {
         "predicate": "common:hasLongitude",
         "subject": "common:GeoProperty_1_yatap_01",
-        "object": "37.4114424^^http://www.w3.org/2001/XMLSchema#double"
+        "object": "127.1293735^^http://www.w3.org/2001/XMLSchema#double"
       },
       {
         "predicate": "common:hasName",
@@ -613,12 +647,12 @@
       {
         "predicate": "time:inXSDDateTime",
         "subject": "time:Instant_1_yatap_01",
-        "object": "2020-09-12T11:32:15Z^^http://www.w3.org/2001/XMLSchema#dateTime"
+        "object": "2020-10-28T03:03:26Z^^http://www.w3.org/2001/XMLSchema#dateTime"
       },
       {
         "predicate": "time:inXSDDateTime",
         "subject": "time:Instant_2_yatap_01",
-        "object": "2020-09-17T03:49:34Z^^http://www.w3.org/2001/XMLSchema#dateTime"
+        "object": "2020-10-28T22:18:53Z^^http://www.w3.org/2001/XMLSchema#dateTime"
       }
     ]
   }
