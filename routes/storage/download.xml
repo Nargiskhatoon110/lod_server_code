@@ -1,0 +1,833 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:time="http://www.w3.org/2006/time#"
+     xmlns:common="http://www.city-hub.kr/ontologies/2019/1/common#"
+     xmlns:parking="http://www.city-hub.kr/ontologies/2019/1/parking#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#acceptsCurrency -->
+
+
+    <ObjectProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#acceptsCurrency"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#definesContactPoint -->
+
+
+    <ObjectProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#definesContactPoint"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#definesService -->
+
+
+    <ObjectProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#definesService"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#executionTime -->
+
+
+    <ObjectProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#executionTime"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#hasAddress -->
+
+
+    <ObjectProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#hasAddress"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#hasDateCreated -->
+
+
+    <ObjectProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#hasDateCreated"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#hasDateModified -->
+
+
+    <ObjectProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#hasDateModified"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#hasPriceProperty -->
+
+
+    <ObjectProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#hasPriceProperty"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#hasPriceRate -->
+
+
+    <ObjectProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#hasPriceRate"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#hasProperty -->
+
+
+    <ObjectProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#hasProperty"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#hasState -->
+
+
+    <ObjectProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#hasState"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#includesProfilePicture -->
+
+
+    <ObjectProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#includesProfilePicture"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#isLocatedAt -->
+
+
+    <ObjectProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#isLocatedAt"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/parking#definesOpeningTime -->
+
+
+    <ObjectProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/parking#definesOpeningTime"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/parking#hasParkingLotProfile -->
+
+
+    <ObjectProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/parking#hasParkingLotProfile"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/parking#supportsParkingCongestionEstimation -->
+
+
+    <ObjectProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/parking#supportsParkingCongestionEstimation"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#dayOfWeek -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/2006/time#dayOfWeek"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasBeginning -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/2006/time#hasBeginning"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasEnd -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/2006/time#hasEnd"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#inDateTime -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/2006/time#inDateTime"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#hasCurrency -->
+
+
+    <DatatypeProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#hasCurrency"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#hasEmail -->
+
+
+    <DatatypeProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#hasEmail"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#hasEstimatedValue -->
+
+
+    <DatatypeProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#hasEstimatedValue"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#hasID -->
+
+
+    <DatatypeProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#hasID"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#hasImage -->
+
+
+    <DatatypeProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#hasImage"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#hasLatitute -->
+
+
+    <DatatypeProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#hasLatitute"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#hasLocationTag -->
+
+
+    <DatatypeProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#hasLocationTag"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#hasLongitude -->
+
+
+    <DatatypeProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#hasLongitude"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#hasName -->
+
+
+    <DatatypeProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#hasName"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#hasPaymentType -->
+
+
+    <DatatypeProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#hasPaymentType"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#hasPostalAddress -->
+
+
+    <DatatypeProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#hasPostalAddress"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#hasPriceRateValue -->
+
+
+    <DatatypeProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#hasPriceRateValue"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#hasStateValue -->
+
+
+    <DatatypeProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#hasStateValue"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#hasTelephoneNumber -->
+
+
+    <DatatypeProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#hasTelephoneNumber"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#hasType -->
+
+
+    <DatatypeProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#hasType"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/parking#hasAvailableNumberOfSpots -->
+
+
+    <DatatypeProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/parking#hasAvailableNumberOfSpots"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/parking#hasParkingLotCategory -->
+
+
+    <DatatypeProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/parking#hasParkingLotCategory"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/parking#hasTotalSpots -->
+
+
+    <DatatypeProperty rdf:about="http://www.city-hub.kr/ontologies/2019/1/parking#hasTotalSpots"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#inXSDDateTime -->
+
+
+    <DatatypeProperty rdf:about="http://www.w3.org/2006/time#inXSDDateTime"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#ContactPoint -->
+
+
+    <Class rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#ContactPoint"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#GeoProperty -->
+
+
+    <Class rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#GeoProperty"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#PriceRate -->
+
+
+    <Class rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#PriceRate"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#ProfilePicture -->
+
+
+    <Class rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#ProfilePicture"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#State -->
+
+
+    <Class rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#State"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#ZoneBasedLocation -->
+
+
+    <Class rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#ZoneBasedLocation"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/parking#AvailableParkingSpots -->
+
+
+    <Class rdf:about="http://www.city-hub.kr/ontologies/2019/1/parking#AvailableParkingSpots"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/parking#PCEService -->
+
+
+    <Class rdf:about="http://www.city-hub.kr/ontologies/2019/1/parking#PCEService"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/parking#ParkingCongestionEstimation -->
+
+
+    <Class rdf:about="http://www.city-hub.kr/ontologies/2019/1/parking#ParkingCongestionEstimation"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/parking#ParkingLot -->
+
+
+    <Class rdf:about="http://www.city-hub.kr/ontologies/2019/1/parking#ParkingLot"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/parking#ParkingLotProfile -->
+
+
+    <Class rdf:about="http://www.city-hub.kr/ontologies/2019/1/parking#ParkingLotProfile"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/parking#ParkingService -->
+
+
+    <Class rdf:about="http://www.city-hub.kr/ontologies/2019/1/parking#ParkingService"/>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/parking#ParkingServicePrice -->
+
+
+    <Class rdf:about="http://www.city-hub.kr/ontologies/2019/1/parking#ParkingServicePrice"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Namedindividual -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/owl#Namedindividual"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#GeneralDateTimeDescription -->
+
+
+    <Class rdf:about="http://www.w3.org/2006/time#GeneralDateTimeDescription"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Instant -->
+
+
+    <Class rdf:about="http://www.w3.org/2006/time#Instant"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#TemporalEntity -->
+
+
+    <Class rdf:about="http://www.w3.org/2006/time#TemporalEntity"/>
+    
+
+
+    <!-- https://w3id.org/saref#Currency -->
+
+
+    <Class rdf:about="https://w3id.org/saref#Currency"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#ContactPoint_1_yatap_01 -->
+
+
+    <NamedIndividual rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#ContactPoint_1_yatap_01">
+        <rdf:type rdf:resource="http://www.city-hub.kr/ontologies/2019/1/common#ContactPoint"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Namedindividual"/>
+        <common:hasEmail>parking@seongnam.kr</common:hasEmail>
+        <common:hasTelephoneNumber>031-000-0000</common:hasTelephoneNumber>
+        <common:hasType>City-hall</common:hasType>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#GeoProperty_1_yatap_01 -->
+
+
+    <NamedIndividual rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#GeoProperty_1_yatap_01">
+        <rdf:type rdf:resource="http://www.city-hub.kr/ontologies/2019/1/common#GeoProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Namedindividual"/>
+        <common:hasLatitute rdf:datatype="http://www.w3.org/2001/XMLSchema#double">127.1293735</common:hasLatitute>
+        <common:hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#double">37.4114424</common:hasLongitude>
+        <common:hasType>Point</common:hasType>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#PriceRate_1_yatap_01 -->
+
+
+    <NamedIndividual rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#PriceRate_1_yatap_01">
+        <rdf:type rdf:resource="http://www.city-hub.kr/ontologies/2019/1/common#PriceRate"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Namedindividual"/>
+        <common:acceptsCurrency rdf:resource="https://w3id.org/saref#Currency_1_yatap_01"/>
+        <common:hasPriceRateValue>최초 30분 무료 free, 이후 10분당 500원</common:hasPriceRateValue>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#ProfilePicture_1_yatap_01 -->
+
+
+    <NamedIndividual rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#ProfilePicture_1_yatap_01">
+        <rdf:type rdf:resource="http://www.city-hub.kr/ontologies/2019/1/common#ProfilePicture"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Namedindividual"/>
+        <common:hasImage>https://raw.githubusercontent.com/IoTKETI/image/master/City_hub_yt_lot_1.jpg</common:hasImage>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#State_1_yatap_01 -->
+
+
+    <NamedIndividual rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#State_1_yatap_01">
+        <rdf:type rdf:resource="http://www.city-hub.kr/ontologies/2019/1/common#State"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Namedindividual"/>
+        <common:hasStateValue>open</common:hasStateValue>
+        <common:hasStateValue>spaceAvailable</common:hasStateValue>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#ZoneBasedLocation_1_yatap_01 -->
+
+
+    <NamedIndividual rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#ZoneBasedLocation_1_yatap_01">
+        <rdf:type rdf:resource="http://www.city-hub.kr/ontologies/2019/1/common#ZoneBasedLocation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Namedindividual"/>
+        <common:hasName>addressCountry</common:hasName>
+        <common:hasPostalAddress>KR</common:hasPostalAddress>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#ZoneBasedLocation_2_yatap_01 -->
+
+
+    <NamedIndividual rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#ZoneBasedLocation_2_yatap_01">
+        <rdf:type rdf:resource="http://www.city-hub.kr/ontologies/2019/1/common#ZoneBasedLocation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Namedindividual"/>
+        <common:hasName>addressRegion</common:hasName>
+        <common:hasPostalAddress>Gyeonggi-do</common:hasPostalAddress>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#ZoneBasedLocation_3_yatap_01 -->
+
+
+    <NamedIndividual rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#ZoneBasedLocation_3_yatap_01">
+        <rdf:type rdf:resource="http://www.city-hub.kr/ontologies/2019/1/common#ZoneBasedLocation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Namedindividual"/>
+        <common:hasName>addressLocality</common:hasName>
+        <common:hasPostalAddress>Seongnam-si</common:hasPostalAddress>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#ZoneBasedLocation_4_yatap_01 -->
+
+
+    <NamedIndividual rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#ZoneBasedLocation_4_yatap_01">
+        <rdf:type rdf:resource="http://www.city-hub.kr/ontologies/2019/1/common#ZoneBasedLocation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Namedindividual"/>
+        <common:hasName>streetAddress</common:hasName>
+        <common:hasPostalAddress>8th Seungin-ro</common:hasPostalAddress>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/common#ZoneBasedLocation_5_yatap_01 -->
+
+
+    <NamedIndividual rdf:about="http://www.city-hub.kr/ontologies/2019/1/common#ZoneBasedLocation_5_yatap_01">
+        <rdf:type rdf:resource="http://www.city-hub.kr/ontologies/2019/1/common#ZoneBasedLocation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Namedindividual"/>
+        <common:hasName>addressTown</common:hasName>
+        <common:hasPostalAddress>Yatap-dong</common:hasPostalAddress>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/parking#AvailableParkingSpots_1_yatap_01 -->
+
+
+    <NamedIndividual rdf:about="http://www.city-hub.kr/ontologies/2019/1/parking#AvailableParkingSpots_1_yatap_01">
+        <rdf:type rdf:resource="http://www.city-hub.kr/ontologies/2019/1/parking#AvailableParkingSpots"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Namedindividual"/>
+        <parking:hasAvailableNumberOfSpots rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedInt">40</parking:hasAvailableNumberOfSpots>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/parking#PCEService_1_yatap_01 -->
+
+
+    <NamedIndividual rdf:about="http://www.city-hub.kr/ontologies/2019/1/parking#PCEService_1_yatap_01">
+        <rdf:type rdf:resource="http://www.city-hub.kr/ontologies/2019/1/parking#PCEService"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Namedindividual"/>
+        <parking:supportsParkingCongestionEstimation rdf:resource="http://www.city-hub.kr/ontologies/2019/1/parking#ParkingCongestionEstimation_1_yatap_01"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/parking#ParkingCongestionEstimation_1_yatap_01 -->
+
+
+    <NamedIndividual rdf:about="http://www.city-hub.kr/ontologies/2019/1/parking#ParkingCongestionEstimation_1_yatap_01">
+        <rdf:type rdf:resource="http://www.city-hub.kr/ontologies/2019/1/parking#ParkingCongestionEstimation"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Namedindividual"/>
+        <common:executionTime rdf:resource="http://www.w3.org/2006/time#Instant_5_yatap_01"/>
+        <common:hasEstimatedValue>[2.0, 5.0]</common:hasEstimatedValue>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/parking#ParkingLotProfile_1_yatap_01 -->
+
+
+    <NamedIndividual rdf:about="http://www.city-hub.kr/ontologies/2019/1/parking#ParkingLotProfile_1_yatap_01">
+        <rdf:type rdf:resource="http://www.city-hub.kr/ontologies/2019/1/parking#ParkingLotProfile"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Namedindividual"/>
+        <common:definesContactPoint rdf:resource="http://www.city-hub.kr/ontologies/2019/1/common#ContactPoint_1_yatap_01"/>
+        <common:definesService rdf:resource="http://www.city-hub.kr/ontologies/2019/1/parking#PCEService_1_yatap_01"/>
+        <common:definesService rdf:resource="http://www.city-hub.kr/ontologies/2019/1/parking#ParkingService_1_yatap_01"/>
+        <common:includesProfilePicture rdf:resource="http://www.city-hub.kr/ontologies/2019/1/common#ProfilePicture_1_yatap_01"/>
+        <parking:definesOpeningTime rdf:resource="http://www.w3.org/2006/time#TemporalEntity_1_yatap_01"/>
+        <parking:hasParkingLotCategory>feeCharged</parking:hasParkingLotCategory>
+        <parking:hasParkingLotCategory>public</parking:hasParkingLotCategory>
+        <parking:hasTotalSpots rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">110</parking:hasTotalSpots>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/parking#ParkingLot_1_yatap_01 -->
+
+
+    <NamedIndividual rdf:about="http://www.city-hub.kr/ontologies/2019/1/parking#ParkingLot_1_yatap_01">
+        <rdf:type rdf:resource="http://www.city-hub.kr/ontologies/2019/1/parking#ParkingLot"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Namedindividual"/>
+        <common:hasAddress rdf:resource="http://www.city-hub.kr/ontologies/2019/1/common#ZoneBasedLocation_1_yatap_01"/>
+        <common:hasAddress rdf:resource="http://www.city-hub.kr/ontologies/2019/1/common#ZoneBasedLocation_2_yatap_01"/>
+        <common:hasAddress rdf:resource="http://www.city-hub.kr/ontologies/2019/1/common#ZoneBasedLocation_3_yatap_01"/>
+        <common:hasAddress rdf:resource="http://www.city-hub.kr/ontologies/2019/1/common#ZoneBasedLocation_4_yatap_01"/>
+        <common:hasAddress rdf:resource="http://www.city-hub.kr/ontologies/2019/1/common#ZoneBasedLocation_5_yatap_01"/>
+        <common:hasDateCreated rdf:resource="http://www.w3.org/2006/time#Instant_1_yatap_01"/>
+        <common:hasDateModified rdf:resource="http://www.w3.org/2006/time#Instant_2_yatap_01"/>
+        <common:hasProperty rdf:resource="http://www.city-hub.kr/ontologies/2019/1/parking#AvailableParkingSpots_1_yatap_01"/>
+        <common:hasState rdf:resource="http://www.city-hub.kr/ontologies/2019/1/common#State_1_yatap_01"/>
+        <common:isLocatedAt rdf:resource="http://www.city-hub.kr/ontologies/2019/1/common#GeoProperty_1_yatap_01"/>
+        <parking:hasParkingLotProfile rdf:resource="http://www.city-hub.kr/ontologies/2019/1/parking#ParkingLotProfile_1_yatap_01"/>
+        <common:hasID>urn:datahub:OffStreetParking:yatap_01</common:hasID>
+        <common:hasLocationTag>commercial</common:hasLocationTag>
+        <common:hasName>yatap_01</common:hasName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/parking#ParkingServicePrice_1_yatap_01 -->
+
+
+    <NamedIndividual rdf:about="http://www.city-hub.kr/ontologies/2019/1/parking#ParkingServicePrice_1_yatap_01">
+        <rdf:type rdf:resource="http://www.city-hub.kr/ontologies/2019/1/parking#ParkingServicePrice"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Namedindividual"/>
+        <common:hasPriceRate rdf:resource="http://www.city-hub.kr/ontologies/2019/1/common#PriceRate_1_yatap_01"/>
+        <common:hasPaymentType>Cash</common:hasPaymentType>
+        <common:hasPaymentType>Credit Card</common:hasPaymentType>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.city-hub.kr/ontologies/2019/1/parking#ParkingService_1_yatap_01 -->
+
+
+    <NamedIndividual rdf:about="http://www.city-hub.kr/ontologies/2019/1/parking#ParkingService_1_yatap_01">
+        <rdf:type rdf:resource="http://www.city-hub.kr/ontologies/2019/1/parking#ParkingService"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Namedindividual"/>
+        <common:hasPriceProperty rdf:resource="http://www.city-hub.kr/ontologies/2019/1/parking#ParkingServicePrice_1_yatap_01"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Friday -->
+
+
+    <NamedIndividual rdf:about="http://www.w3.org/2006/time#Friday"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#GeneralDateTimeDescription_1_yatap_01 -->
+
+
+    <NamedIndividual rdf:about="http://www.w3.org/2006/time#GeneralDateTimeDescription_1_yatap_01">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Namedindividual"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/time#GeneralDateTimeDescription"/>
+        <time:dayOfWeek rdf:resource="http://www.w3.org/2006/time#Friday"/>
+        <time:dayOfWeek rdf:resource="http://www.w3.org/2006/time#Monday"/>
+        <time:dayOfWeek rdf:resource="http://www.w3.org/2006/time#Saturday"/>
+        <time:dayOfWeek rdf:resource="http://www.w3.org/2006/time#Sunday"/>
+        <time:dayOfWeek rdf:resource="http://www.w3.org/2006/time#Thursday"/>
+        <time:dayOfWeek rdf:resource="http://www.w3.org/2006/time#Tuesday"/>
+        <time:dayOfWeek rdf:resource="http://www.w3.org/2006/time#Wednesday"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Instant_1_yatap_01 -->
+
+
+    <NamedIndividual rdf:about="http://www.w3.org/2006/time#Instant_1_yatap_01">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Namedindividual"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
+        <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-19T03:48:20Z</time:inXSDDateTime>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Instant_2_yatap_01 -->
+
+
+    <NamedIndividual rdf:about="http://www.w3.org/2006/time#Instant_2_yatap_01">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Namedindividual"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
+        <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-19T03:48:20Z</time:inXSDDateTime>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Instant_3_yatap_01 -->
+
+
+    <NamedIndividual rdf:about="http://www.w3.org/2006/time#Instant_3_yatap_01">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Namedindividual"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
+        <time:inDateTime rdf:resource="http://www.w3.org/2006/time#GeneralDateTimeDescription_1_yatap_01"/>
+        <common:hasType>OpeningHours</common:hasType>
+        <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1111-11-11T00:00:00Z</time:inXSDDateTime>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Instant_4_yatap_01 -->
+
+
+    <NamedIndividual rdf:about="http://www.w3.org/2006/time#Instant_4_yatap_01">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Namedindividual"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
+        <time:inDateTime rdf:resource="http://www.w3.org/2006/time#GeneralDateTimeDescription_1_yatap_01"/>
+        <common:hasType>OpeningHours</common:hasType>
+        <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1111-11-11T23:59:59Z</time:inXSDDateTime>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Instant_5_yatap_01 -->
+
+
+    <NamedIndividual rdf:about="http://www.w3.org/2006/time#Instant_5_yatap_01">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Namedindividual"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
+        <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-14T02:00:00Z</time:inXSDDateTime>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Monday -->
+
+
+    <NamedIndividual rdf:about="http://www.w3.org/2006/time#Monday"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Saturday -->
+
+
+    <NamedIndividual rdf:about="http://www.w3.org/2006/time#Saturday"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Sunday -->
+
+
+    <NamedIndividual rdf:about="http://www.w3.org/2006/time#Sunday"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#TemporalEntity_1_yatap_01 -->
+
+
+    <NamedIndividual rdf:about="http://www.w3.org/2006/time#TemporalEntity_1_yatap_01">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Namedindividual"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+        <time:hasBeginning rdf:resource="http://www.w3.org/2006/time#Instant_3_yatap_01"/>
+        <time:hasEnd rdf:resource="http://www.w3.org/2006/time#Instant_4_yatap_01"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Thursday -->
+
+
+    <NamedIndividual rdf:about="http://www.w3.org/2006/time#Thursday"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Tuesday -->
+
+
+    <NamedIndividual rdf:about="http://www.w3.org/2006/time#Tuesday"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Wednesday -->
+
+
+    <NamedIndividual rdf:about="http://www.w3.org/2006/time#Wednesday"/>
+    
+
+
+    <!-- https://w3id.org/saref#Currency_1_yatap_01 -->
+
+
+    <NamedIndividual rdf:about="https://w3id.org/saref#Currency_1_yatap_01">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Namedindividual"/>
+        <rdf:type rdf:resource="https://w3id.org/saref#Currency"/>
+        <common:hasCurrency>KRW</common:hasCurrency>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.16.2020-07-28T21:09:41Z) https://github.com/owlcs/owlapi/ -->
